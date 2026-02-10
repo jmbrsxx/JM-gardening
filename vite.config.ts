@@ -5,7 +5,10 @@ import path from "path";
 import runtimeErrorOverlay from "@replit/vite-plugin-runtime-error-modal";
 import { metaImagesPlugin } from "./vite-plugin-meta-images";
 
+
+
 export default defineConfig({
+  base: "/JM-gardening/",
   plugins: [
     react(),
     runtimeErrorOverlay(),
