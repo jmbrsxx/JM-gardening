@@ -22,7 +22,6 @@ export function Navbar() {
           <Link href="/">
             <a className="flex items-center gap-2 group">
               <div className="relative w-8 h-8 flex items-center justify-center bg-primary/10 rounded-full group-hover:bg-primary/20 transition-colors">
-                 <img src="/images/logo.png" alt="JM Garden Logo" className="w-6 h-6 object-contain" />
               </div>
               <span className="font-serif text-xl font-bold text-foreground tracking-tight">
                 JM Garden
