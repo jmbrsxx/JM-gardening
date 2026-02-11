@@ -7,7 +7,7 @@ export function Hero() {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/images/garden-gallery_1.jpg"
+          src={`${import.meta.env.BASE_URL}images/garden-gallery_1.jpg`}
           alt="Beautiful lush garden"
           className="w-full h-full object-cover"
         />

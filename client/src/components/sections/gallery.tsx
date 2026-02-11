@@ -3,10 +3,10 @@ import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import { useState } from "react";
 
 const images = [
-  { src: "/images/garden-gallery_1.jpg", alt: "Lush garden pathway", title: "Residential Oasis" },
-  { src: "/images/garden-gallery_2.jpg", alt: "Flower bed close-up", title: "Seasonal Blooms" },
-  { src: "/images/garden-gallery_3.jpg", alt: "Patio landscaping", title: "Modern Hardscape" },
-  { src: "/images/garden-gallery_4.jpg", alt: "Manicured lawn", title: "Estate Maintenance" },
+  { src: `${import.meta.env.BASE_URL}images/garden-gallery_1.jpg`, alt: "Lush garden pathway", title: "Residential Oasis" },
+  { src: `${import.meta.env.BASE_URL}images/garden-gallery_2.jpg`, alt: "Flower bed close-up", title: "Seasonal Blooms" },
+  { src: `${import.meta.env.BASE_URL}images/garden-gallery_3.jpg`, alt: "Patio landscaping", title: "Modern Hardscape" },
+  { src: `${import.meta.env.BASE_URL}images/garden-gallery_4.jpg`, alt: "Manicured lawn", title: "Estate Maintenance" },
 ];
 
 export function Gallery() {
