@@ -8,7 +8,7 @@ import { metaImagesPlugin } from "./vite-plugin-meta-images";
 
 
 export default defineConfig({
-  base: "/JM-gardening/",
+  base: "/",
   plugins: [
     react(),
     runtimeErrorOverlay(),
