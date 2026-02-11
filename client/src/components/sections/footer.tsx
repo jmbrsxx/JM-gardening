@@ -8,7 +8,7 @@ export function Footer() {
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center gap-2 mb-4">
               <div className="w-8 h-8 flex items-center justify-center bg-primary/20 rounded-full">
-                 <img src={`${import.meta.env.BASE_URL}images/logo.png`} alt="JM Garden Logo" className="w-6 h-6 object-contain" />
+                 <img src={`${import.meta.env.BASE_URL}images/logo.png`} alt="JM Garden Logo" className="w-6 h-6 object-contain invert brightness-0" />
               </div>
               <span className="font-serif text-xl font-bold">JM Garden</span>
             </div>

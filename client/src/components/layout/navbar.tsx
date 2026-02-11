@@ -17,11 +17,11 @@ export function Navbar() {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md border-b border-border/40 shadow-sm">
       <div className="container mx-auto px-4 md:px-6 h-16 flex items-center justify-between">
-        <img src={`${import.meta.env.BASE_URL}images/logo.png`} alt="JM Garden Logo" className="w-6 h-6 object-contain invert brightness-0" />
         <div className="flex items-center gap-2">
           <Link href="/">
             <a className="flex items-center gap-2 group">
               <div className="relative w-8 h-8 flex items-center justify-center bg-primary/10 rounded-full group-hover:bg-primary/20 transition-colors">
+                <img src={`${import.meta.env.BASE_URL}images/logo.png`} alt="JM Garden Logo" className="w-6 h-6 object-contain" />
               </div>
               <span className="font-serif text-xl font-bold text-foreground tracking-tight">
                 JM Garden
